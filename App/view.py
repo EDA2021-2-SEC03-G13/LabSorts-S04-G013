@@ -34,6 +34,8 @@ se hace la solicitud al controlador para ejecutar la
 operación solicitada
 """
 
+defaul_limit = 1000
+sys.setrecursionlimit(defaul_limit*10)
 
 def printMenu():
     print("Bienvenido")
